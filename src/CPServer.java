@@ -4,7 +4,7 @@ import java.io.*;
 public class CPServer {
   public static void main(String[] args) throws IOException {
 
-	ServerSocket CPServerSocket = null;
+    ServerSocket CPServerSocket = null;
     boolean listening = true;
     String CPServerName = "CPServer";
     int CPServerNumber = 4444;
